@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kenneth Styppa is a PhD candidate at ETH Zurich working on AI reasoning, safety, and medicine."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Kenneth Styppa</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="eth-mark" href="https://ethz.ch/" target="_blank" rel="noreferrer" aria-label="ETH Zurich">
+          <img src="assets/eth-zurich.png" alt="ETH Zurich" />
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="https://github.com/kennethSty" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/kenneth-styppa-546779159/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero" id="about" aria-labelledby="intro-heading">
+          <p class="eyebrow">Basel, Switzerland</p>
+          <h1 id="intro-heading">Kenneth<br />Styppa</h1>
+
+          <a
+            class="portrait"
+            href="https://www.linkedin.com/in/kenneth-styppa-546779159/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Kenneth Styppa on LinkedIn"
+          >
+            <img src="assets/kenneth-styppa.jpeg" alt="Portrait of Kenneth Styppa" />
+          </a>
+
+          <div class="intro">
+            <p class="lead">
+              I am a first-year PhD candidate supervised by
+              <a href="https://michaelmoor.me/" target="_blank" rel="noreferrer">Michael Moor</a>
+              at ETH Zurich. My interests are AI reasoning and safety, with a focus on applications in medicine.
+            </p>
+            <p>
+              Previously, I was at the National University of Singapore, Heidelberg University,
+              Zeppelin University, and UC Berkeley. I worked at ETH Zurich, QuantumBlack McKinsey,
+              and the German Aerospace Center, among others.
+            </p>
+            <p class="aside">Sometimes I make art too.</p>
+          </div>
+        </section>
+
+        <section class="news" id="news" aria-labelledby="news-heading">
+          <div class="section-title">
+            <p class="eyebrow">Recent</p>
+            <h2 id="news-heading">News</h2>
+          </div>
+
+          <ol class="news-list">
+            <li>
+              <span class="news-label">2026</span>
+              <p>
+                <a href="https://process-reward-agents.github.io/" target="_blank" rel="noreferrer">Process Reward Agents</a>
+                was accepted to ICML 2026.
+              </p>
+            </li>
+            <li>
+              <span class="news-label">2026</span>
+              <p>
+                <a href="https://rad-agent.github.io/" target="_blank" rel="noreferrer">RadAgent</a>
+                was published as a preprint on arXiv.
+              </p>
+            </li>
+            <li>
+              <span class="news-label">Now</span>
+              <p>
+                I joined ETH Zurich’s
+                <a href="https://bsse.ethz.ch/mail" target="_blank" rel="noreferrer">Medical AI Lab</a>
+                as a PhD candidate.
+              </p>
+            </li>
+            <li>
+              <span class="news-label">Previously</span>
+              <p>I graduated with a master’s degree with distinction from Heidelberg University in applied mathematics and computer science.</p>
+            </li>
+          </ol>
+        </section>
+      </main>
+
+      <footer>
+        <p>© <span id="year">2026</span> Kenneth Styppa</p>
+        <div class="social-links">
+          <a href="https://github.com/kennethSty" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/kenneth-styppa-546779159/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

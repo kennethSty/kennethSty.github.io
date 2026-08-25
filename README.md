@@ -1,1 +1,1 @@
-[kennethSty.github.io](https://kennethSty.github.io)
+Visit my [personal website](https://kennethSty.github.io).
